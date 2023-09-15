@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokamon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="logo1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="" class="logo">
+            
+        </div>
+
+        <div class="">
+           <h1>Choose your Pokemon</h1>
+        </div>
+
+        <form action="pokedex.html" autocomplete="off" class="search_bar">
+            <label>
+                <input type="search" name="name" list="pokemons" placeholder="search" class="pokemon__search">
+                <datalist id="pokemons"></datalist>
+            </label>
+            <button type="submit"></button>
+        </form>
+        
+        <!-- <div class="spinner"></div> -->
+
+        <div class="list">
+            <ul class="pokamon__list"></ul>
+        </div>
+
+        <div class="page">
+            <a href="" class="prevPage"><img width="30" height="30" src="https://img.icons8.com/ios/30/left-squared--v1.png" alt="left-squared--v1"/></a>  
+            <a href="offset=20" class="nextPage"><img width="30" height="30" src="https://img.icons8.com/ios/30/000000/right-squared--v1.png" alt="right-squared--v1"/></a>
+        </div>
+        
+    </section>
+
+    <script src="pokemon.js" defer></script>
+    <script src="/search.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+}
+
+main{
+    background-color: #ffcb05;
+    width: 100vh;
+    height: 180vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-rows: 100px 50px 1fr 180px;
+    grid-template-columns: 500px ;
+    border-radius: 50px;
+    border: 10px solid #3c5aa6;
+}
+
+.logo1{
+    height: 100px;
+}
+
+.name{
+    font-size: 50px;
+}
+
+.picture{   
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.main__picture{
+    width: 490px;
+    height: 290px;
+}
+
+.information{
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.li_list{
+    text-align: left;
+}
